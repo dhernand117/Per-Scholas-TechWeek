@@ -1,0 +1,58 @@
+/*-----HEADER-----*/
+
+header {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 300px;
+  height: 100px;
+  background-color: #333;
+  transition: width 1s ease-in-out 0s;
+  color:#ffffff;
+  font-size:3=20px;
+}
+header:hover {width: 100%;}
+
+/*-----IMAGES-----*/
+
+img {
+  width: 24%;
+  height: 25%;
+}
+img {animation: spin 6s ease-in-out infinite reverse;}
+
+@keyframes spin{
+  50% { transform: rotate(180deg); }
+  100% { transform:rotate(360deg); }
+}
+
+
+/*-----CONTACT FORM-----*/
+
+textarea {
+  width: 80%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #575757;
+  height: 200px;}
+
+/*-----FOOTER-----*/
+
+footer {
+  background-color: #333;
+  padding: 30px;
+  font-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+.button {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: #333;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: rgb(59, 73, 194);
+  color: #ffffff; }
