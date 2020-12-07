@@ -1,0 +1,30 @@
+html { background-image:url('img/countdown.jpg'); }
+
+#controlos {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 15% 45%;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  font-size-adjust: 2;
+  color: rgb(255, 255, 255);
+}
+
+.blue {
+	background-color: #2c75a7;
+}
+
+.red {
+	background-color: #811e1e;
+}

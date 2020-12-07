@@ -1,0 +1,54 @@
+html { background-image:url('img/countdown.jpg'); }
+
+.blue, .red {
+  top: 333px;
+  text-align:center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin:auto;
+  position:relative;
+  width: 300px;
+  height: 300px;
+  font-size:50px;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+
+}
+
+.blue input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+	font-size: inherit;
+	font-family: inherit;
+	background-color:rgb(26, 75, 131);
+  width:25%;
+  height:25%;
+	border:none;
+	padding:0;
+	margin:auto;
+}
+
+.blue .inside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	width:400px;
+	left:100px;
+	top: 170px;
+
+}
+
+.blue {
+	background-color: rgb(26, 75, 131);
+}
+
+.red {
+	background-color: rgb(122, 26, 43);
+}

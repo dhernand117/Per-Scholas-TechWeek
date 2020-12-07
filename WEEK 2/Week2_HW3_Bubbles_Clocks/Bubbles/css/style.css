@@ -1,0 +1,27 @@
+html { background-image: url(img/bubbles.jpeg)}
+
+.grid { /*THIS WILL GIVE THE BASIC STYLING LAYOUT TO THE GRID*/
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 33%);
+}
+
+.cell {/*THIS WILL MAKE EVERY DIV INSIDE THE PARENT GRID A CIRCLE*/
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #1d92f1;
+
+}
+.cell:hover {/*THIS WILL MAKE THAT EVERY CIRCLE DIV WILL CHANGE THEIR OPACITY TO 0*/
+  opacity: 0;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
