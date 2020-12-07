@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="calculator.js" defer></script> <!--THIS IS HOW TO LINK OUR .JS FILE USING THE "DEFER" METHOD THAT LOADS OUR SCRIPT AFTER THE HTML HAS FINISHED LOADING-->
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>CALCULATOR </h1>
+<div>
+      <input type="text" id="a" value=""> <!--THIS WILL TAKE THE FIRST VALUE OF OUR INPUT FIELDS-->
+      <input type="text" id="b" value="">  <!--THIS WILL TAKE THE SECOND VALUE OF OUR INPUT FIELDS-->
+      <input type="text" id="result" value="">  <!--THIS WILL RETURN THE VALUE OF THE FUNCTIONS DEPENDING ON THE DATA INSIDE OUR INPUT FIELDS-->
+</div>
+
+<div>
+      <button  type="button" name="addition" onclick="add() ">Add</button>  <!--THIS BUTTON WILL LINK TO OUR SUM FUNCTION ON OUR .JS FILE-->
+      <button type="button" name="subtraction" onclick="subtract() ">Subtract</button>  <!--THIS BUTTON WILL LINK TO OUR SUBSTRACT FUNCTION ON OUR .JS FILE-->
+      <button type="button" name="multiplication" onclick="multiply() ">Multiply</button>  <!--THIS BUTTON WILL LINK TO OUR MULTIPLY FUNCTION ON OUR .JS FILE-->
+      <button type="button" name="division" onclick="divide() ">Divide</button>  <!--THIS BUTTON WILL LINK TO OUR DIVIDE FUNCTION ON OUR .JS FILE-->
+      <button type="button" name="average" onclick="average() ">Average</button>  <!--THIS BUTTON WILL LINK TO OUR AVERAGE FUNCTION ON OUR .JS FILE-->
+</div>
+
+  </body>
+</html>
