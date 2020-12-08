@@ -1,0 +1,5 @@
+LINKED LIST https://medium.com/journey-of-one-thousand-apps/data-structures-in-the-real-world-508f5968545a
+GRAPH https://leapgraph.com/graph-data-structures-applications
+TREE https://medium.com/@chris.mastel/application-of-tree-data-structures-d060dedc504c
+
+ALL DATA STRUCTURES AND EXAMPLES https://www.geeksforgeeks.org/data-structures/
