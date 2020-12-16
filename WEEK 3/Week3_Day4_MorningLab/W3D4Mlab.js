@@ -9,8 +9,8 @@ class Fish {
   constructor() {
     this.swim = 'I can swim';
   }
-  method_swim(){
-    return this.swim;
+  method_swim(swim){
+    console.log('I can swim');
   }
 }
 class Nemo extends Fish {//keyword extends is used to inherit parent the class in class declaration

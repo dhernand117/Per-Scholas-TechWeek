@@ -12,18 +12,16 @@ class Animal{
     this.legs = legs;
     this.superPower = superPower;
   }
-  userSuperPower(){
-    return '';
+  userSuperPower(Pow){
+    this.superPower = Pow;
   }
-  eat(){
-    console.log("I am eating");
-  }
-  sleep(){
-    console.log("I am sleeping");
-  }
+  method1(){console.log("I'm a method");}
+  method2(){console.log("I'm also a method");}
 }
-var gorilla= new Animal('Harambe',17,'Black/Grey',2,'Grab and Drag');
-var cat = new Animal('Smudge',6,'White',4,'Epic meme moves');
+let gorilla= new Animal('Harambe',17,'Black/Grey',2,'Grab and Drag');
+gorilla.userSuperPower('Mean stare')
+let cat = new Animal('Smudge',6,'White',4,'Epic meme moves');
+
 console.log(gorilla);
 console.log(cat);
 
@@ -40,19 +38,18 @@ class User {
     this.lastName = lastName;
     this.departmentAttributes = departmentAttributes;
   }
-  changeDepartment(){
-    return 'Changed department to '
+  changeDepartment(newdepartment){
+    this.departmentAttributes = newdepartment;
   }
 }
-var user1 = new User('John','Doe','Cash register')
-user1.departmentAttributes = 'Pharmacy';
+let user1 = new User('John','Doe','Cash register')
+user1.changeDepartment('Meet and greet');
+// user1.departmentAttributes = 'Pharmacy';
 
-var user2 = new User('Mike','Meyers','Deli Server')
+let user2 = new User('Mike','Meyers','Deli Server')
 user2.departmentAttributes = 'Maintenance';
 
-var user3 = new User('Mario','Bros','Electronics')
+let user3 = new User('Mario','Bros','Electronics')
 
-var employees = [];
-console.log(user1);
-console.log(user2);
-console.log(user3);
+let employees = [user1,user2,user3];
+console.log(employees);
