@@ -1,0 +1,5 @@
+#receipts{
+    display: inline-block;
+    padding: 20px 20px;
+    border: solid rgb(248, 0, 0) 5px;
+}
