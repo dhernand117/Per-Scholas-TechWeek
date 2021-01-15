@@ -1,0 +1,68 @@
+html {
+    background-image: url("groceries.jpg");    
+}
+
+body {
+    margin: 1em;
+    padding: 1em;
+    font-family: sans-serif;
+    background: #c236e6;
+    text-align: center;
+}
+
+#div1 {
+    margin: 5%;
+    width: 90%;
+    height: 30vh;
+    box-shadow: 0 0 8px rgb(3, 3, 3);
+    padding: 1em;
+    background: #0ae49b;
+}
+
+#div2 {
+    margin: 5%;
+    width: 90%;
+    height: 30vh;
+    box-shadow: 0 0 8px rgb(3, 3, 3);
+    padding: 1em;
+    background: #15bbbb;
+}
+
+ul {
+    display: grid;
+    grid-template-areas: 'item brand units';
+    list-style-type: none;
+    background: #7bbeca;
+}
+
+#item {
+    height: 30px;
+    font-family: sans-serif;
+    grid-column: 'item';
+    background: #c6e5eb;
+    margin-left: 25px;
+}
+
+#brand {
+    height: 30px;
+    font-family: sans-serif;
+    grid-column: 'brand';
+    background: #c6e5eb;
+    margin-left: 25px;
+}
+
+#units {
+    height: 30px;
+    font-family: sans-serif;
+    grid-column: 'units';
+    background: #c6e5eb;
+    margin-left: 25px;
+}
+
+button {
+    border-radius: 10%;
+    height: 30px;
+    background-color: #a31616;
+    color: azure;
+    margin-left: 25px;
+}
