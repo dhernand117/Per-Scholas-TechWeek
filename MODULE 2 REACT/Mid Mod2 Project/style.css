@@ -1,0 +1,91 @@
+body {
+    background-image:url('./planning.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'greeting'
+    'main' ;
+    justify-content: center;
+}
+
+.todoListMain {
+    grid-template-rows: 'main';
+}
+
+.todoListMain .main input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 85%;
+}
+
+.todoListMain .main button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0066FF;
+    border-radius: 10%;
+}
+
+.todoListMain .main button:hover {
+    background-color: #2bd4c6;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.todoListMain .theList {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.todoListMain .theList li {
+    color: #333;
+    font-weight: bold;
+    background-color: rgba(16, 243, 224);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.todoListMain .theList li:hover {
+    background-color: rgb(151, 45, 45);
+    transform: translateX(15px); 
+    transition: .5s;
+    color: #FFF;
+    text-decoration: line-through;
+    font-style: italic;
+    cursor: url("./done.png"), auto;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+.header {
+    grid-template-rows: 'header';
+    height: 100px;
+    width: 100%;
+    background-color: rgba(53, 50, 50, 0.80);
+    color: azure;
+    margin-bottom: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .greeting {
+     grid-template-rows: 'greeting';
+    background-color: rgba(26, 215, 228, 0.70);
+    text-align: center;
+    width: 100%;
+
+ }
