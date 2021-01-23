@@ -24,3 +24,24 @@ class lion extends Animal {
     }
 }
 console.log(lion);
+
+// A CLASS WITH AN EXAMPLE OF A CALLBACK FUNCTION 
+function calculateSalary (salaryFunc, base) {
+    return salaryFunc(base) + base;
+}
+
+class Worker {
+    constructor (base, position) {
+        this.base = base;
+        this.position = position;
+    }
+    getBonus(hours) {
+        return 1500;
+    }
+    getPay() {
+        return calculateSalary(this.getBonus, this.base);
+    }
+}
+
+let Nopalito = new Worker(75000, 'JrCatStinker')
+console.log(Nopalito.getPay());
